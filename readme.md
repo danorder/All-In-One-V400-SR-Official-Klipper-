@@ -1,7 +1,7 @@
 Flsun v400 overhaul in accordance to Klipper standards / delta. Page under construction.  
 For varying user Skill reasons there will be 2 config variants. 
 
-Oem Klipper Vanilla. 
+Oem Klipper Vanilla. (Raspberry pi general linux , or Reinstalled speeder-pad) 
 
 Flsun speederspad klipper. (has manhychanges to core klipper files....)   
 
