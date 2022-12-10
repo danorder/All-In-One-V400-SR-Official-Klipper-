@@ -34,6 +34,9 @@ https://docs.mainsail.xyz mainsail ui
 https://github.com/Arksine/moonraker
 https://github.com/th33xitus/kiauh
 
-Note links are also used to credit variouse authors other credits is typically marked in the .cfgs 
+Note links are also used to credit variouse authors or credits will typically be marked in the .cfgs for corespondinng code or collab efforts. 
 
+Flsun v400 
+Facebook community 
+KevinOconnor 
 
