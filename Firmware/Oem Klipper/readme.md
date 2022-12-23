@@ -12,3 +12,5 @@ instructions. Note kiauh can be hit and miss its often better to install using t
 
 Later for the pads depedning on what happens with flsun images. I may make a simple cleanup script to fully rudn a clean klipper install for begginer users. 
 
+Note if coming from sr configs the functioality is basically the same / procedures. 
+
