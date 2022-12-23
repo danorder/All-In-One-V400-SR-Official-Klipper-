@@ -25,7 +25,7 @@ Heavy duty input shaper tuning
 
 Raspberry pi pico adxl support 
 
-Idea maker profiles in accordance to delta / direct drive 
+Ideamaker profiles  
 
 bed mesh works properly now..... 
 
