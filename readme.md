@@ -14,10 +14,10 @@ mesh to work.  When running the calibrate button first preheat the bed to temp u
 it will complete once bed_mesh has finished. Fluidd / Mainsail will also display what procedure is running. lastly once complete it will leave the (babystep) 0.6mm high
 this is to avoid scrapes if Zoffseet is wrong. On the first print simply (babystep) down from mainsail or Klipperscreen.
 
-Spread cycle and, stealth chops is possible. In accordance to tmc docs spreadcycle is the most accurate in theory however it is degreeingly    more loud. (not much) 
+Spread cycle and, stealth chops is possible. In accordance to tmc docs spreadcycle is the most accurate in theory however it is degreeingly more loud. (not much)
+The mode can be set in start gcode. eg stealthchop or spreadcyle or manually selecting the button. 
 Safe homing 
 Extruder in gear ratio 
-1/254 stepping xyz
 Tmc spreadsheet tuning 
 auto-saving Baby step based on Mental's xyz offset macro 
 Heavy duty input shaper tuning 
@@ -25,6 +25,11 @@ Raspberry pi pico adxl support
 Idea maker profiles in accordance to delta / direct drive 
 bed mesh works properly now..... 
 Revised macros redundant removed 
+Effector led turns on running G28
+automated calibration (endstop , deltacal bed mesh) preheat the bed fist before using this. probe must be on. 
+0.4 cht not really required but useful in large hole sizes eg 0.6-1mm 
+ongong support / bug resolution for "configs" I have 0 control over issues related to bugs resulting from X project making changes
+other then updating configs if its a featuere change.  
  
 For any further support https://www.facebook.com/groups/1502404840209556 general support / Repo Update bulletin board  
 website https://www.klipper3d.org 
