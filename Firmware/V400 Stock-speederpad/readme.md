@@ -8,4 +8,6 @@ General instructions for files
 Simply rename or remove the current printer.cfg and, replace with github printer.cfg and, other_features files. The pico file / shaper file is optional but setup for a 
 raspberry pi pico this can very depending on device. to enable there is a include near the top of printer.cfg removing the # will enable the file however after shaper is run using a pico the file will need to be disabled again otherwise the pico would need to be plugged intot he pad at all times. (It would see the pico as another required printer mcu otehrwise)    
 
+Initial startup will not have a "save_section at the bottom of printer.cfg" probe_calibrate will be required to run first , Then calibibrate button. note unless a nozzle is changed or somthing that would affect the probe / hotend height. Probe_calibrate generally doens't need to be run again just the calibrate button for general leveling or changing bed temps to account for mesh / height changes with thermal  expansion.  
+
 Other notes if coming from my sr configs functionality is basically the same / procedures. 
