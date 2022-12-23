@@ -39,8 +39,10 @@ https://github.com/Arksine/moonraker
 https://github.com/th33xitus/kiauh
 
 Note links are also used to credit various authors or credits will typically be marked in the .cfgs for corresponding code or collab efforts. 
-
 Flsun v400 
 Facebook community 
-KevinOConnor 
+KevinOConnor The klipper 0.s 
+mainsail / fluidd teams 
+KlipperScreen. 
 
+Note I have not done collabs of anykind or Otherwise if / when they will listed. I do not endorce the use of any devs "work" in regards to testing , material cost , time/labour or potential damages For use for personal gains monatary or otherwise. eg carbon copies for self promotion. In regards to open source all code free in accordance to gnu and expected to be used shared improved etc. Always make sure to thank devs for work / time or support. Happy Printinng.  
