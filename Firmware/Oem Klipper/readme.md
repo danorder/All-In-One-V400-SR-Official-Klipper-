@@ -6,7 +6,7 @@ everything. Moreover at this time there is a catch. Due to current moonraker cha
 
 For the pi the setup remains the usual. using either mainsail or fluiddpi premade klipper images. notably mainsailos is now on the raspi flasher tool for download. 
  If using either image they need updates run or for advanced users its probably better to use a minimal raspiimage and install the projects from the website
-instructions. Note kiauh can be hit and miss its often better to install using the manual way. eg  git clone whatever repo following the projects install instrucitons. 
+instructions. Note kiauh can be hit and miss its often better to install using the manual way. eg  git clone whatever repo following the projects install instructions. 
 
 Later for the pads depending on what happens with flsun images. I may make a simple cleanup script to fully run a clean klipper install for begginer users. currently its a bit of ssh terminal use.  
 
