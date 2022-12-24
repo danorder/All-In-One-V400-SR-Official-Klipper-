@@ -18,4 +18,7 @@ G1 E0 F300
 M83
 
 This start gcode requires extrusion set relative. Note: this will be changing entirely at somepoint some 
-adjustment may be needed on the prime location y-140  can be tweaked slightly more.  
+adjustment may be needed on the prime location y-140  can be tweaked slightly more.  for pure stock or cura 
+add StealthChop to the top or SpreadCycle depending on tolerable noise regarding personal preferance. 
+Note: in accordance to docs techncially stealthchop may have a tiny movement accuracy issue on paper so spreadCycle is the most 
+ideal. I have yet to see this make a noticable differannce other then torque and, trinmatic claims otherwwise. So up for debate.
