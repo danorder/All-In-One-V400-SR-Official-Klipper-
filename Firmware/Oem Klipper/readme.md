@@ -11,4 +11,19 @@ instructions. Note kiauh can be hit and miss its often better to install using t
 Later for the pads depending on what happens with flsun images. I may make a simple cleanup script to fully run a clean klipper install for begginer users. currently its a bit of ssh terminal use.  
 
 Note if coming from sr configs the functioality is basically the same / procedures. 
+put files on , with mainsail / fluidd do not copy pate use the file.. this often leads to formating issues for whatever reason. 
+
+REMINDER when running anything to do with "probing" put the probe on first. Calibrate button probe on first same with probe_calibrate 
+for extra clairity when using probe_calibrate once it probes the bed remove the probe then do the paper test. accept must be typed or hit before 
+save_config. 
+
+#1 Probe_calibrate with terminal or oem Klipper screen. Note: klipper screen has a slight bug atm when using the zcalibrate button it will not save_config and, the prompt will just dissapear seemingly freezing. Simply save_config from fluidd/main this will solve it for now. 
+
+2. Preheat bed to temps used for actual printing. 
+
+3. Hit calibrate macro. This will run a automated calibration routine saving / restarting on its own it will finish after bed_mesh. 
+
+4. The calibrate button will leave the nozzle 0.6mm high lower this during a print. this is to avoid usererror or dimension issues with paper setting zoffset with Probe_calibratate. 
+
+5. Make sure to run bed / hotend pid. 
 
