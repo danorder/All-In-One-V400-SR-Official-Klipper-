@@ -13,7 +13,7 @@ raspberry pi pico this can very depending on device. to enable there is a includ
 Initial startup will not have a "save_section at the bottom of printer.cfg" probe_calibrate will be required to run first , Then calibibrate button. note unless a nozzle is changed or somthing that would affect the probe / hotend height. Probe_calibrate generally doens't need to be run again just the calibrate button for general leveling or changing bed temps to account for mesh / height changes with thermal  expansion.  
 
 Note if coming from sr configs the functioality is basically the same / procedures. 
-put files on , with mainsail / fluidd do not copy pate use the file.. this often leads to formating issues for whatever reason. 
+put files on , with mainsail / fluidd do not copy paste use the file.. this often leads to formating issues for whatever reason. 
 
 
 REMINDER when running anything to do with "probing" put the probe on first. Calibrate button probe on first same with probe_calibrate 
