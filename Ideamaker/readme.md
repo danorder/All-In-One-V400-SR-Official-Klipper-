@@ -1,1 +1,1 @@
-Coming soon pla , petg , nylon abs tpu etc. a few things need to be checked. 
+Coming soon pla , petg , nylon abs tpu etc. a few things need to be checked.  To be considered gen 1 / beta profiles may or may not be hit and miss with varying brands ambient temps etc. profiles will be added / updated as per feedback or whatever Filament i have in stock. Note overture tends to be generally slow / common brand if problematic slow down this generally changes widely depending on the color. 
