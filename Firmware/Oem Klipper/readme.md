@@ -13,9 +13,9 @@ Later for the pads depending on what happens with flsun images. I may make a sim
 Note if coming from sr configs the functioality is basically the same / procedures. 
 put files on , with mainsail / fluidd do not copy pate use the file.. this often leads to formating issues for whatever reason. 
 
-REMINDER when running anything to do with "probing" put the probe on first. Calibrate button probe on first same with probe_calibrate 
+REMINDER when running anything to do with "probing" put the probe on first. Using the Calibrate button probe on first same with probe_calibrate 
 for extra clairity when using probe_calibrate once it probes the bed remove the probe then do the paper test. accept must be typed or hit before 
-save_config. 
+save_config. Further mainsail/fluidd "zoffset" buttons are a bit deceptive. these use gcode_offset aka babystep.  The testz commands must be used in terminal or ideally with the klipper screen z calibrate button. Note the calibrate button will list this as "probe" 
 
 #1 Probe_calibrate with terminal or oem Klipper screen. Note: klipper screen has a slight bug atm when using the zcalibrate button it will not save_config and, the prompt will just dissapear seemingly freezing. Simply save_config from fluidd/main this will solve it for now. 
 
