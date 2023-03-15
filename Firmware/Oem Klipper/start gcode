@@ -9,3 +9,11 @@ G1 F500 E1 ;extrude 1 mm of feed stock
 PRIME 
 G92 E0
 ;performance  ;Requires "pure stock v400" or a 450watt psu if using larger heater cartridges. (Increases power consumption) 
+
+#################### do not copy this line or below ####################
+slicer settings 
+skirt settings 
+
+skirt line count 2 
+skirt distance 10mm 
+skirt/brim minimum length 550mm 
