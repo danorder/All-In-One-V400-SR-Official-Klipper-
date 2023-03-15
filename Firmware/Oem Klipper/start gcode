@@ -8,4 +8,4 @@ G92 E0 ;zero the extruded length
 G1 F500 E1 ;extrude 1 mm of feed stock
 PRIME 
 G92 E0
-;performance  ;requires "pure stock" or for 450 psu and,larger heater cartridges. (Increases power consumption) 
+;performance  ;Requires "pure stock v400" or a 450watt psu if using larger heater cartridges. (Increases power consumption) 
