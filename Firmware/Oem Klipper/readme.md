@@ -1,4 +1,6 @@
-Initial release. 
+Initial release. updated start gcode prime blob pattern. tuesday march 14 2023 prime arc depreciated /default cura start.
+
+page underconstruction 
 
 #1 If using the speederpad first ensure it is running the latest image which includes ssh and, root. Currently the simplest method is to simply delete the pi user account
 and, remake it deleting anything "modified' Then reinstall with kiauh script. However this will also require enabling ssh with root user. Or b using kiauh to uninstall
