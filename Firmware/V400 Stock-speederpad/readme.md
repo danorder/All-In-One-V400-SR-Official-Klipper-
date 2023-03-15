@@ -1,3 +1,5 @@
+updated start gcode prime blob pattern.  tuesday march 14 2023 prime arc depreciated /default cura start. 
+
 Designed to work with "pure stock speeder pads' (Flsun firmware)
 
 Note: The klipper files are "modified" and, Klipper screen cannot set PROBE zoffset.  its using babystep which is just a workaround for slight probe_offset measurement issues with paper etc.  This will lead to strange deviation numbers due to not knowing the hardware offset. it will need to run  Probe_calibrate to set the Probe zoffset" This can be done from terminal. or, Klipperscreen returned to oem via reinstall.  Stock KlipperScreen will have a "zcalibrate" button with a Probe option. This is probe_calibrate which  will include  lower by X amount buttons to run the paper test vs use terminal. https://www.klipper3d.org/Bed_Level.html#the-paper-test
