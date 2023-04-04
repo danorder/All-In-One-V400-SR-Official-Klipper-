@@ -1,4 +1,5 @@
 Initial release. updated start gcode prime blob pattern. tuesday march 14 2023 prime arc depreciated /default cura start.
+Update added ADXL345 direct wire to mks wifi port config / diagram. Note 2.0 / v3.0 boards use the same pins. 
 
 page underconstruction 
 
