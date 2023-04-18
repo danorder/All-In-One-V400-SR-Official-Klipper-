@@ -1,3 +1,4 @@
+BED_MESH_PROFILE LOAD="default"
 G21 ;metric values
 G90 ;absolute positioning
 M82 ;set extruder to absolute mode
