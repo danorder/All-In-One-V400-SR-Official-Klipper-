@@ -1,3 +1,16 @@
+############ Prime blob instructions ###########
+Not much adjustment should be needed however, the user has the ability to adjust size/extrude length and, retract to avoid stringing. 
+Note if blobs don't stick this typically means first layer hotend temp is not hot enough /bed. Generally the print wont stick as well or lift later. 
+
+To change prime blob extrude length/size simply use the "prime blob extrude length macro" click the arrow and change the lenght. the default is 80mm 
+To adjust the retract length before it starts print. increase or decrease firmware retract length. 
+If coming from a older config simply copy paste firmware retract in the same location as the current printer.cfg file. 
+Also replace otherfeatures file with the latest to avoid a full reinstall / calibration cycle.  
+
+Tip: Notepad++ has a compare Tool plugin to aid in slight config changes. refer to google on usage / install. 
+
+
+
 ##################### START GCODE #########################
 
 Spreadcycle ;Stealthchop this can be used or additional silence if required. however may lead dimensional problem / scraping. refer to tmc docs for a in depth reason. 
