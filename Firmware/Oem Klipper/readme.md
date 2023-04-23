@@ -1,7 +1,12 @@
-Initial release. updated start gcode prime blob pattern. tuesday march 14 2023 prime arc depreciated /default cura start.
-Update added ADXL345 direct wire to mks wifi port config / diagram. Note 2.0 / v3.0 boards use the same pins. 
+
 
 page underconstruction 
+
+Most general help / support can be found at.  https://www.facebook.com/groups/1502404840209556
+
+For general in depth instructions. Its always the Klipper website or coresponding projects. These change regularly and, are always the most accurate/current souce being the creators vs random guides. 
+
+
 
 #1 If using the speederpad first ensure it is running the latest image which includes ssh and, root. Currently the simplest method is to simply delete the pi user account
 and, remake it deleting anything "modified' Then reinstall with kiauh script. However this will also require enabling ssh with root user. Or b using kiauh to uninstall
@@ -14,7 +19,7 @@ instructions. Note kiauh can be hit and miss its often better to install using t
 Later for the pads depending on what happens with flsun images. I may make a simple cleanup script to fully run a clean klipper install for begginer users. currently its a bit of ssh terminal use.  
 
 Note if coming from sr configs the functioality is basically the same / procedures. 
-put files on , with mainsail / fluidd do not copy pate use the file.. this often leads to formating issues for whatever reason. 
+put files on , with mainsail / fluidd do not copy paste use the file.. this often leads to formating issues for whatever reason. 
 
 REMINDER when running anything to do with "probing" put the probe on first. Using the Calibrate button probe on first same with probe_calibrate 
 for extra clairity when using probe_calibrate once it probes the bed remove the probe then do the paper test. accept must be typed or hit before 
