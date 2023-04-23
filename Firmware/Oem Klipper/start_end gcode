@@ -1,0 +1,35 @@
+##################### START GCODE #########################
+
+Spreadcycle ;Stealthchop this can be used or additional silence if required. however may lead dimensional problem / scraping. refer to tmc docs for a in depth reason. 
+BED_MESH_PROFILE LOAD="default"
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+G28 ;Home
+G1 Z15.0 F9000 ;move the platform down 15mm
+G92 E0 ;zero the extruded length
+PRIME
+G92 E0
+
+###################### END GCODE ###########################
+M104 S0
+M140 S0 ;heated bed heater off
+G91 ;relative positioning
+G1 E-0.5 F300 
+G1 Z+0.5 E-5 X-20 Y-20 F9000 
+G28 ;Home
+M84 ;steppers off
+G90 ;absolute positioning
+M107 ;fan off
+led_off
+Stealthchop
+
+#################### do not copy this line these are just dividers ####################
+slicer settings 
+skirt settings 
+30-60mms skirt print speed 
+skirt line width 0.6
+skirt line count 2 
+skirt distance 10mm 
+skirt/brim minimum length 550mm 
