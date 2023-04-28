@@ -13,13 +13,14 @@ Tip: Notepad++ has a compare Tool plugin to aid in slight config changes. refer 
 
 ##################### START GCODE #########################
 
-Spreadcycle ;Stealthchop this can be used or additional silence if required. however may lead dimensional problem / scraping. refer to tmc docs for a in depth reason. 
+
 BED_MESH_PROFILE LOAD="default"
 G21 ;metric values
 G90 ;absolute positioning
 M82 ;set extruder to absolute mode
 M107 ;start with the fan off
 G28 ;Home
+Spreadcycle ;Stealthchop this can be used or additional silence if required. however may lead dimensional problem / scraping. refer to tmc docs for a in depth reason. 
 G1 Z15.0 F9000 ;move the platform down 15mm
 G92 E0 ;zero the extruded length
 PRIME
