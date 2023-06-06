@@ -1,5 +1,14 @@
 Current beta / overhaul. This will be added as "stable' upcoming namely this directory is to avoid yet another repo
 
+Import Notes. 
+pid_tune macros do not save_config. This is so both can be run to avoid double reboots. if pid_bed is enabled for "calibrate macro" 
+Both virtual_sdcard and variables.cfg location may need to be changed. This will depend on how klipper was installed and, what directorys its using. it is assumed to be using the printer_data directory and "single  install" otherwise winscp or putty can be used to find the "current" locations"  
+Since a clean config will have no calibration settings a bed_mesh error will popup and disappear appear "calibrate" is run. 
+To avoid a bunch of macro clutter restore "mainsail" under settings with the provided layout this will put macros under catagories. 
+
+
+
+
 Whats New ? 
 1. Filament dehydrate macro for use with a filament box of some kind , or bed heater 
 2.  SR firmwware emulator / speed macros if not using dynamic acceleration or to be called in perfilament gcode. The value to put in the pulldown is "active" these values do resume after a reboot. (printer will be using printer.cfg defaults) These can also be used if one wanted to speed things up otherwise slow them down during a print.  
