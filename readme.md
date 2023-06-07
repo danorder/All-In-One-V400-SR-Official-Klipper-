@@ -1,58 +1,37 @@
-Flsun v400 overhaul in accordance to Klipper standards / delta. Page under construction.  
+##############################################
+## Flsun V400 Overhaul in Accordance with Klipper Standards / Delta ##
+## Page under construction ##
 
-For varying user Skill reasons there will be 2 config variants. 
-Oem Klipper Vanilla. (Raspberry pi general linux , or Reinstalled speeder-pad) 
-Flsun speederspad klipper. (has manhychanges to core klipper files....)   
+Configuration Variants:
+1. OEM Klipper Vanilla: Raspberry Pi with general Linux or reinstalled Speeder-pad.
+2. Flsun Speederspad Klipper: Includes many changes to core Klipper files.
 
-NOTE: On some printers it may be nessasary to temporarily increase minimum_z_position: -5  for the initial setup to run "probe_calibrate" due to varying qc. 
-This should afterwards be set default or somthing like 0.6-1mm once "delta calibrate or "calibrate macro" run for the first time applying the machine specific measurements. The first savv_config will also add a section to printer.cfg with calibrated overrides. E.g zoffset ,delta_calibrate pid etc 
+Note:
+On some printers, it may be necessary to temporarily increase 'minimum_z_position' to -5 for the initial setup to run 'probe_calibrate' due to varying quality control. Once completed, it should be set to the default value or around 0.6-1mm. The first 'save_config' will add a section to 'printer.cfg' with calibrated overrides such as 'zoffset', 'delta_calibrate', etc.
 
-Whats new? 
-v400 trams in accordance to delta docs. 
-Calibrate button which will run ,  Endstop calibration , Delta_calibrate , bed_mesh.  This button is to be used ONLY after Probe_calibrate has been run setting up the probe offset. The order of events remians absolute, setup probe offset (probe_calibrate) delta_calibrae to apply zoffset / tram the arms only then will it be trammed allowing mesh to work.  When running the calibrate button first preheat the bed to temp used for printing. The probe must be on. It is automated and will run a routine rebooting /saving on its own it will complete once bed_mesh has finished. Fluidd / Mainsail will also display what procedure is running. lastly once complete it will leave the (babystep) 0.6mm high. This is to avoid scrapes if Zoffset is wrong. On the first print simply (babystep) down from mainsail or Klipperscreen.
+What's New?
+1. V400 trams in accordance with delta docs.
+2. Calibrate button: Runs endstop calibration, delta_calibrate, and bed_mesh. Use this button ONLY after running 'probe_calibrate' to set up the probe offset. The order of events remains absolute: set up probe offset, run 'delta_calibrate' to apply zoffset/tram the arms, and then run 'bed_mesh'. Preheat the bed to the printing temperature before running the calibrate button. The process is automated and will reboot/save on its own. It completes once 'bed_mesh' has finished. Fluidd/Mainsail will display the running procedure. After completion, the (babystep) will be 0.6mm high to avoid scrapes if the Zoffset is wrong. Simply (babystep) down from Mainsail or Klipperscreen during the first print.
 
-Spread cycle and, stealth chops is possible. In accordance to tmc docs spreadcycle is the most accurate in theory however it is degreeingly more loud. (not much)
-The mode can be set in start gcode. eg stealthchop or spreadcyle or manually selecting the button. 
+3. Spread cycle and stealth chops: According to TMC docs, spread cycle is the most accurate but also louder. The mode can be set in start G-code or manually selected.
+4. Safe homing.
+5. Extruder gear ratio.
+6. TMC spreadsheet tuning.
+7. Auto-saving baby step based on Mental's XYZ offset macro.
+8. Heavy-duty input shaper tuning.
+9. Raspberry Pi Pico ADXL support.
+10. Ideamaker profiles.
+11. Properly functioning bed mesh.
+12. Revised macros to remove redundancy.
+13. Effector LED turns on when running G28.
+14. Automated calibration (endstop, delta_calibrate, bed_mesh). Preheat the bed before using this. The probe must be on.
 
-Safe homing 
+Support and Links:
+- For further support: Facebook Group (https://www.facebook.com/groups/1502404840209556)
+- Klipper official website: klipper3d.org (https://www.klipper3d.org)
+- Mainsail UI documentation: docs.mainsail.xyz (https://docs.mainsail.xyz)
+- Moonraker repository: github.com/Arksine/moonraker (https://github.com/Arksine/moonraker)
+- Kiauh repository: github.com/th33xitus/kiauh (https://github.com/th33xitus/kiauh)
 
-Extruder in gear ratio 
-
-Tmc spreadsheet tuning 
-
-auto-saving Baby step based on Mental's xyz offset macro 
-
-Heavy duty input shaper tuning 
-
-Raspberry pi pico adxl support 
-
-Ideamaker profiles  
-
-bed mesh works properly now..... 
-
-Revised macros redundant removed 
-
-Effector led turns on running G28
-
-automated calibration (endstop , deltacal bed mesh) preheat the bed fist before using this. probe must be on. 
-
-0.4 cht not really required but useful in large hole sizes eg 0.6-1mm 
-
-ongong support / bug resolution for "configs" I have 0 control over issues related to bugs resulting from X project making changes
-other then updating configs if its a featuere change.  
- 
-For any further support https://www.facebook.com/groups/1502404840209556 general support / Repo Update bulletin board  
-website https://www.klipper3d.org 
-https://klipperscreen.readthedocs.io/en/latest/  Stock note the v400 pad is heavily modified and  will vary from docs also the Zcalibrate  is babystep this is currently wrong and, will lead to high deviation numbers.... Probe_calibrate must be used from terminal or oem klipperscreen has a option for this. 
-https://docs.mainsail.xyz mainsail ui 
-https://github.com/Arksine/moonraker
-https://github.com/th33xitus/kiauh
-
-Note links are also used to credit various authors or credits will typically be marked in the .cfgs for corresponding code or collab efforts. 
-Flsun v400 
-Facebook community 
-KevinOConnor The klipper 0.s 
-mainsail / fluidd teams 
-KlipperScreen. 
-
-Note I have not done collabs of anykind or Otherwise if / when they will listed. I do not endorce the use of any devs "work" in regards to testing , material cost , time/labour or potential damages For use for personal gains monatary or otherwise. eg carbon copies for self promotion. In regards to open source all code free in accordance to gnu and expected to be used shared improved etc. Always make sure to thank devs for work / time or support. Happy Printinng.  
+Note: Links are provided to credit various authors. Credit for specific code or collaboration efforts can be found in the corresponding .cfg files. The Flsun V400 Facebook community, KevinOConnor's Klipper 0.s, mainsail/fluidd teams, and KlipperScreen are acknowledged. No collabs have been done unless explicitly listed. Use and improvements of open-source code are encouraged and appreciated. Always thank developers for their work, time, and support. Happy printing!
+##############################################
