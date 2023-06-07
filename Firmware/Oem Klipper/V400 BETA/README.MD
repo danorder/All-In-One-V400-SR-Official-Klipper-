@@ -7,15 +7,15 @@ Import Notes:
 Since a clean config will have no calibration settings, a `bed_mesh` error will pop up and disappear when "calibrate" is run. To avoid cluttering macros, restore "mainsail" under settings with the provided layout to put macros under categories.
 
 What's New?
-- Filament dehydrate macro for use with a filament box or bed heater.
+- `Filament_dehydrate` macro for use with a filament box or bed heater.
 - SR firmware emulator/speed macros for non-dynamic acceleration or adjusting print speed during filament G-code. Use "active" in the pull-down menu to resume values after a reboot. These can also be used to speed up or slow down prints.
 - Overhauled macros with pull-down menus available in Mainsail/Fluidd. Most macros use 1=on or 0=off.
 - Filament flow/rotation distance calculators.
 - 5 extruder/effector selection macros for quick swaps or common mod support. The default will be v400 effector on a fresh config.
-- Rotation distance can be adjusted or saved with the `extrude_140` macro. A negative value will also reverse the motor direction.
+- `Rotation distance` can be adjusted or saved with the `extrude_140` macro. A negative value will also reverse the motor direction.
 - Most macros display errors/hints in the print stats section or terminal.
 - Built-in flow profiles. By default, they are inactive until values are set. Profiles like PLA 100, PETG 94, etc., can be used by saving required changes in the machine.
-- Firmware retraction values per flow profile can be saved and used when a specific filament is selected, such as PLA.
+- `Firmware retraction` values per flow profile can be saved and used when a specific filament is selected, such as PLA.
 
 The `M500` macro lists "saved_variables" and displays things like current flow, rotation distance, input shaper, etc., in the terminal.
 
