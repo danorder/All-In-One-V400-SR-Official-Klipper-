@@ -1,4 +1,4 @@
-Current beta/overhaul. This will be added as "stable" upcoming, namely in this directory to avoid yet another repository.
+Current beta/overhaul. This will be added as "stable" upcoming, namely in this directory to avoid yet another repository. Currently "updating. start 10:24pm june 06 2023
 
 Import Notes:
 - `pid_tune` macros do not save_config to allow running both without double reboots.
