@@ -2,6 +2,7 @@ Current beta/overhaul. This will be added as "stable" upcoming, namely in this d
 
 Import Notes:
 - `pid_tune` macros do not save_config to allow running both without double reboots.If `pid_bed` is enabled for "calibrate macro," 
+
 -Both `virtual_sdcard` and `variables.cfg` locations may need to be changed. It depends on how Klipper was installed and what directories it's using. The assumption is it's using the `printer_data` directory and a "single install." Otherwise, tools like WinSCP or PuTTY can be used to find the "current" locations.
 
 Since a clean config will have no calibration settings, a `bed_mesh` error will pop up and disappear after "calibrate" is run. To avoid cluttering macros, restore "mainsail" under settings with the provided layout to put macros under categories.
