@@ -5,7 +5,9 @@ Import Notes:
 
 -Both `virtual_sdcard` and `variables.cfg` locations may need to be changed. It depends on how Klipper was installed and what directories it's using. The assumption is it's using the `printer_data` directory and a "single install." Otherwise, tools like WinSCP or PuTTY can be used to find the "current" locations.
 
-Since a clean config will have no calibration settings, a `bed_mesh` error will pop up and disappear after "calibrate" is run. To avoid cluttering macros, restore "mainsail" under settings with the provided layout to put macros under categories.
+Since a clean config will have no calibration settings, a `bed_mesh` error will pop up and disappear after "calibrate" is run. 
+
+To avoid cluttering macros, restore "mainsail" under settings with the provided layout to put macros under categories.
 
 What's New?
 - `Filament_dehydrate` macro for use with a filament box or bed heater.
