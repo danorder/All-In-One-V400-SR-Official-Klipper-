@@ -7,7 +7,7 @@ Import Notes:
 
 Since a clean config will have no calibration settings, a `bed_mesh` error will pop up and disappear after "calibrate" is run. 
 
-To avoid cluttering macros, restore "mainsail" under settings with the provided layout to put macros under categories.
+To avoid cluttering macros, restore "mainsail" under settings with the provided `backup-mainsail.json` layout to put macros under categories.
 
 What's New?
 - `Filament_dehydrate` macro for use with a filament box or bed heater.
