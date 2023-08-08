@@ -19,6 +19,10 @@ What's New?
 - Most macros display errors/hints in the print stats section or terminal.
 - Built-in flow profiles. By default, they are inactive until values are set. Profiles like PLA 100, PETG 94, etc., can be used by saving required changes in the machine.
 - `Firmware retraction` values per flow profile can be saved and used when a specific filament is selected, such as PLA.
+- To use these either click `select_flow` macro and, select one. the value can be anything e.g 1 nothinng specific is assigned. this will load the profile , and,also the selected profile will remain active until changed. 
+E.g if pla is selected and, the printer is rebooted this will remain said retract / flow values on boot. These can either be used alone or in slicers with perfilament/profile gcode such as ideamaker/prusa/supersslicer/
+E.G  select_material_flow PETG=1 would go in start_gcode or X slicers custom filament/gcode options. NOTE: Ensure slicers defaults on Flow are 100 or 1.0 and, Firmware retract is enabled. (Firmware retract is not required)
+regular slicer retract can also be used and, Only the flow values will be used / overriden. FURTHER NOTE: PLA profile would also be the same as "default'  e.g 100 flow.  
 
 The `M500` macro lists "saved_variables" and displays things like current flow, rotation distance, input shaper, etc., in the terminal.
 
