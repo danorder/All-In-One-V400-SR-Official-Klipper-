@@ -17,20 +17,22 @@ What's New?
 - 5 extruder/effector selection macros for quick swaps or common mod support. The default will be v400 effector on a fresh config.
 - `Rotation distance` can be adjusted or saved with the `extrude_140` macro. A negative value will also reverse the motor direction.
 - Most macros display errors/hints in the print stats section or terminal.
-- Built-in flow profiles. By default, they are inactive until values are set. Profiles like PLA 100, PETG 94, etc., can be used by saving required changes in the machine.
-- `Firmware retraction` values per flow profile can be saved and used when a specific filament is selected, such as PLA.
-- To use these either click `select_flow` macro and, select one. the value can be anything e.g 1 nothinng specific is assigned. this will load the profile , and,also the selected profile will remain active until changed. 
-E.g if pla is selected and, the printer is rebooted this will remain said retract / flow values on boot. These can either be used alone or in slicers with perfilament/profile gcode such as ideamaker/prusa/supersslicer/
-E.G  select_material_flow PETG=1 would go in start_gcode or X slicers custom filament/gcode options. NOTE: Ensure slicers defaults on Flow are 100 or 1.0 and, Firmware retract is enabled. (Firmware retract is not required)
+- `Built-in flow/retract profiles`. By default, these are inactive until values are set. Profiles like PLA 100, PETG 94, etc can be used by saving required changes in the machine with `save_flow` 
+- `Firmware retraction` values per flow profile can be saved and used when a specific filament is selected using `select_flow`, such as PLA.
+- To use these either click `select_flow` macro and, select one. the value can be anything e.g `1` nothinng specific is assigned. This will load the profile, and, also the selected profile will remain active until changed. 
+E.g If pla is selected and, the printer is rebooted this will remain said retract / flow values on boot. These can either be used alone or in slicers with perfilament/gcode profiles such as ideamaker/prusa/supersslicer.
+E.G  `select_material_flow PETG=1` would go in start_gcode or X slicers custom filament/gcode options. This should avoid to much reliance on slicers / faster settings changes. NOTE: Ensure slicers defaults on Flow are 100 or 1.0 and, Firmware retract is enabled. (Firmware retract is not required)
 regular slicer retract can also be used and, Only the flow values will be used / overriden. FURTHER NOTE: PLA profile would also be the same as "default'  e.g 100 flow.  
 
-The `M500` macro lists "saved_variables" and displays things like current flow, rotation distance, input shaper, etc., in the terminal.
+The `M500` macro lists "saved_variables" and displays things like current flow, rotation distance, input shaper, etc., in the terminal similar to marlin.
+optionally you can open the variables file to view asigned values / change things like the flow/retract profiles.  
 
 Calibrate Macro Update:
 - The `calibrate` macro now attempts to run a `shaper_calibration`. If no shaper is found, it will display an error, reboot, and continue to the next calibration. The terminal will show this information if an ADXL is present or if the calibration failed.
 - The `calibrate` macro has an option to change the default safe height in the pull-down menu. The default is 2mm high to avoid scrapes and should be lowered during the first print. The old default is 0.6mm high. The large height increase is to accommodate varying effectors/mods/probes.
 - Regular `delta_calibrate`/`Probe_calibrate` behavior remains the same as on the website. If used in the terminal, these macros will not leave the nozzle high for the first print. ALWAYS reset "zoffset" before hand aka babysteps. 
 - The "Calibrate Settings" macro currently has the option to enable PID tuning of the bed during the calibration routine. The default behavior is off on a clean config with no variables file.
+It also includes the option to enable `shaper` or turn it off (useful for pritners with permanet adxls) value 1=on 0=off. 
 
 Prime blob extrude amount/length can now be adjusted with the `prime_blob_settings` macro, which also allows for extrude speed. Note that speed values are in mm/s instead of mm/min for simplicity.
 
