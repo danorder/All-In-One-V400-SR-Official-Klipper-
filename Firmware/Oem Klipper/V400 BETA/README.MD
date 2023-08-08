@@ -23,7 +23,7 @@ The `M500` macro lists "saved_variables" and displays things like current flow, 
 Calibrate Macro Update:
 - The `calibrate` macro now attempts to run a `shaper_calibration`. If no shaper is found, it will display an error, reboot, and continue to the next calibration. The terminal will show this information if an ADXL is present or if the calibration failed.
 - The `calibrate` macro has an option to change the default safe height in the pull-down menu. The default is 2mm high to avoid scrapes and should be lowered during the first print. The old default is 0.6mm high. The large height increase is to accommodate varying effectors/mods/probes.
-- Regular `delta_calibrate`/`Probe_calibrate` behavior remains the same as on the website. If used in the terminal, these macros will not leave the nozzle high for the first print.
+- Regular `delta_calibrate`/`Probe_calibrate` behavior remains the same as on the website. If used in the terminal, these macros will not leave the nozzle high for the first print. ALWAYS reset "zoffset" before hand aka babysteps. 
 - The "Calibrate Settings" macro currently has the option to enable PID tuning of the bed during the calibration routine. The default behavior is off on a clean config with no variables file.
 
 Prime blob extrude amount/length can now be adjusted with the `prime_blob_settings` macro, which also allows for extrude speed. Note that speed values are in mm/s instead of mm/min for simplicity.
