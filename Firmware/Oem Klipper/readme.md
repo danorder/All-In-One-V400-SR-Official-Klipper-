@@ -1,4 +1,3 @@
-MARKING : LEGACY IN FAVOR OF A MORE ADVANCED VERSION / UNIFIED SR / V400 REPO.  Most general help / support can be found at.  https://www.facebook.com/groups/1502404840209556
 
 KNOWN STABLE CURA 5.22 , 4.10 , 4.8XX 
 IDEAMAKER V4.31XXXX 
