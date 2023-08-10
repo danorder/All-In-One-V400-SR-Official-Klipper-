@@ -1,4 +1,6 @@
-Current beta/overhaul. This will be added as "stable" upcoming, namely in this directory to avoid yet another repository. Currently "updating. start 10:24pm june 06 2023
+EDIT/UPDATED. THIS WILL BE BE MOVING TO A SEPERATE / UNIFIED SR/V4 REPO. NAMELY THIS WILL BE CONSIDERED A MORE ADVANCED VERSION. however the old will only recive required klipper compatability updates goingg forward. 
+
+Current beta/overhaul. This will be added as "stable" upcoming, namely in this directory to possibly avoid yet another repository. Currently "updating. start 10:24pm june 06 2023
 
 Import Notes:
 - `pid_tune` macros do not save_config to allow running both without double reboots.If `pid_bed` is enabled for "calibrate macro," 
