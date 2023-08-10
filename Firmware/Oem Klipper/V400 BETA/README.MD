@@ -20,9 +20,10 @@ What's New?
 - 5 extruder/effector selection macros for quick swaps or common mod support. The default will be v400 effector on a fresh config.
 - `Rotation distance` can be adjusted or saved with the `extrude_140` macro. A negative value will also reverse the motor direction.
 - Most macros display errors/hints in the print stats section or terminal.
-- `Built-in flow/retract profiles`. By default, these are inactive until values are set. Profiles like PLA 100, PETG 94, etc can be used by saving required changes in the machine with `save_flow` 
+- `Built-in slicer profile overrides`. By default, these are inactive until values are set. Profiles like PLA 100, PETG 94, etc can be used by saving required changes in the machine with `save_flow`
+To make a profile. first put in the flow value this also doubles as selecting. e.g pla 100 flow , all retract values and, p.a.  Speed override is selecteded differently. use 1 in the "flow value" then whatever value more or less. e.g 120%. this will make the printer run 20% percent faster or 20% more of the profile. 
 - `Firmware retraction` values per flow profile can be saved and used when a specific filament is selected using `select_flow`, such as PLA.
-- To use these either click `select_flow` macro and, select one. the value can be anything e.g `1` nothinng specific is assigned. This will load the profile, and, also the selected profile will remain active until changed. 
+- To use these either click `select_profile` macro and, select one. the value can be anything e.g `1` nothinng specific is assigned. This will load the profile and, also the selected profile will remain active until changed. 
 E.g If pla is selected and, the printer is rebooted this will remain said retract / flow values on boot. These can either be used alone or in slicers with perfilament/gcode profiles such as ideamaker/prusa/supersslicer.
 E.G  `select_material_flow PETG=1` would go in start_gcode or X slicers custom filament/gcode options. This should avoid to much reliance on slicers / faster settings changes. NOTE: Ensure slicers defaults on Flow are 100 or 1.0 and, Firmware retract is enabled. (Firmware retract is not required)
 regular slicer retract can also be used and, Only the flow values will be used / overriden. FURTHER NOTE: PLA profile would also be the same as "default'  e.g 100 flow.  
