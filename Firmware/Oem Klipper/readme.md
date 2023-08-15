@@ -15,7 +15,7 @@ For general in depth instructions. Its always the Klipper website or corespondin
 
 ########################################################################################################################################################################################################################
 
-#1 If using the speederpad first ensure it is running the latest image which includes ssh and, root. Currently the simplest method is to simply delete the pi user account
+If using the speederpad first ensure it is running the latest image which includes ssh and, root. Currently the simplest method is to simply delete the pi user account
 and, remake it deleting anything "modified' Then reinstall with kiauh script. However this will also require enabling ssh with root user. Or B. just using kiauh to uninstall
 everything. Moreover at this time there is a catch. Due to current moonraker changes not all projects are in sync. As a result things need to be done by hand. The most hastle free solution is just reinstall "klipper" and KlipperScreen to return probe_calibrate buttons / other functions. This can be done with either kiauh or deleting the klipper/klipperscreen folder then git cloning from klippers / klippersScreens github. Note the update manager will claim "dirty" since its looking for the flsun repo this can be ignored.  
 
@@ -31,7 +31,7 @@ put files on , with mainsail / fluidd do not copy paste use the file.. this ofte
 
 ########################################################################################################################################################################################################################
 
-REMINDER when running anything to do with "probing" put the probe on first. Using the Calibrate button probe on first same with probe_calibrate 
+ Additional Reminder:  when running anything to do with "probing" put the probe on first. Using the Calibrate button probe on first same with probe_calibrate 
 for extra clairity when using probe_calibrate once it probes the bed remove the probe then do the paper test. accept must be typed or hit before 
 save_config. Further mainsail/fluidd "zoffset" buttons are a bit deceptive. these use gcode_offset aka babystep.  The testz commands must be used in terminal or ideally with the klipper screen zcalibrate button. Note: The zcalibrate button will list this as "probe" for general safety on any nuew printer build its suggested to also use somthing like cardboard to avoid pei sheet damages. 
 
