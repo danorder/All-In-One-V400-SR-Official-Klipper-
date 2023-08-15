@@ -1,4 +1,4 @@
-EDIT/UPDATED. THIS WILL BE BE MOVING TO A SEPERATE / UNIFIED SR/V4 REPO. NAMELY THIS WILL BE CONSIDERED A MORE ADVANCED VERSION. however the old "legacy version" will only recieve required klipper compatability updates goingg forward. 
+EDIT/UPDATED. THIS WILL BE  possibly become a  / UNIFIED SR/V4 REPO. the old "legacy versions" will only recieve required klipper compatability updates goingg forward. 
 
 Current beta/overhaul. 
 
