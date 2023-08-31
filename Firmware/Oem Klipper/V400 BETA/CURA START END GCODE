@@ -27,3 +27,4 @@ M84 ;steppers off
 G90 ;absolute positioning
 M107  ;fan off
 led_off
+NEOPIXEL_DISPLAY LED=effector TYPE=extruder MODE=glow # Doesn't matter if you have one or not. 
