@@ -2,7 +2,7 @@
 ###                              START GCODE                                        ###
 #######################################################################################
 ;Firmware_Select V4=active   #########FIRMWARE SELECT EXAMPLES. 
-:Firmware_Select SUPER_RACER=active
+;Firmware_Select SUPER_RACER=active
 G90 ;absolute positioning
 M82 ;set extruder to absolute mode
 M107 ;start with the fan off
