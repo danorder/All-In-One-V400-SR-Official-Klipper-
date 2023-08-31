@@ -1,1 +1,29 @@
+#######################################################################################
+###                              START GCODE                                        ###
+#######################################################################################
+;Firmware_Select V4=active   #########FIRMWARE SELECT EXAMPLES. 
+:Firmware_Select SUPER_RACER=active
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+G28 ;Home
+stealthchop  ;spreadcycle ###########STEALTHCHOP MEANS =SILENT MODE LESS PRECEISION ON PAPER ######
+;performance  ;requires "pure stock" otherwise for 450w psu required for larger heater cartridges
+G1 Z15.0 F9000 ;move the platform down 15mm
+G92 E0 ;zero the extruded length
+PRIME
+G92 E0
 
+#######################################################################################
+###                                END GCODE                                        ###
+#######################################################################################
+M104 S0
+M140 S0 ;heated bed heater off
+G91 ;relative positioning
+G1 E-0.5 F300 
+G1 Z+0.5 E-5 X-20 Y-20 F9000 
+G28 ;Home
+M84 ;steppers off
+G90 ;absolute positioning
+M107  ;fan off
+led_off
