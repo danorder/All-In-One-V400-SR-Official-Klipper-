@@ -19,16 +19,17 @@ G92 E0
 #######################################################################################
 ###                                END GCODE                                        ###
 #######################################################################################
-M104 S0
-M140 S0 ;heated bed heater off
 G91 ;relative positioning
 G1 E-0.5 F300 
 G1 Z+0.5 E-5 X-20 Y-20 F9000 
 Stealthchop
 G28 ;Home
+M109 S40 ;WAIT for hotend to cool 
+M104 S0
+M140 S0 ;heated bed heater off
+M107  ;fan off
 M84 ;steppers off
 G90 ;absolute positioning
-M107  ;fan off
 led_off
-NEOPIXEL_DISPLAY LED=effector TYPE=extruder MODE=glow # Doesn't matter if you have one or not. 
+NEOPIXEL_DISPLAY LED=effector TYPE=extruder MODE=glow # Doesn't matter if you have one or not.
 
