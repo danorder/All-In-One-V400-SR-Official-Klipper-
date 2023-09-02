@@ -24,8 +24,9 @@ G1 E-0.5 F300
 G1 Z+0.5 E-5 X-20 Y-20 F9000 
 Stealthchop
 G28 ;Home
+M106 S255 ; TURN ON FAN MAX TO COOL HOTEND. 
 M109 S40 ;WAIT for hotend to cool 
-M104 S0
+M104 S0 ;TURN OFF HOTEND
 M140 S0 ;heated bed heater off
 M107  ;fan off
 M84 ;steppers off
