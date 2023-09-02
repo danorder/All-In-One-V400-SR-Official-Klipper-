@@ -1,0 +1,34 @@
+#######################################################################################
+###                              START GCODE                                        ###
+#######################################################################################
+
+G28 ;Home
+;#performance  ;requires "pure stock" or for 450 psu and,larger heater cartridges 
+STEALTHCHOP ;SPREADCYCLE (max performance/accuracy increases noise) 
+G90
+M107 ;start with the fan off
+M104 S0 ; Stops PS/SS from sending temp waits separately
+M140 S0
+_PRUSA_START BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperature[initial_extruder]]
+G1 Z15.0 F4200 ;move the platform down 15mm
+G92 E0 ;zero the extruded length
+NEOPIXEL_DISPLAY LED=effector TYPE=extruder MODE=white
+PRIME
+G92 E-0.8
+G92 E0
+
+#######################################################################################
+###                                END GCODE                                        ###
+#######################################################################################
+G91 ;relative positioning
+G1 E-0.5 F300 
+G1 Z+0.5 E-5 X-20 Y-20 F9000
+G28
+M106 S255 ; SET FAN MAX TO COOL HOTEND. 
+M109 S40 ;WAIT FOR HOTEND TO COOL.
+M104 S0 ; TURN OFF HOTEND 
+M140 S0 ;heated bed heater off
+M107  ;fan off
+M84 ;steppers off
+G90 ;absolute positioning
+NEOPIXEL_DISPLAY LED=effector TYPE=extruder MODE=glow 
