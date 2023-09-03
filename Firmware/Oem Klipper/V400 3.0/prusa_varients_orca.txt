@@ -9,9 +9,7 @@ M140 S0
 _PRUSA_START_V400 BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperature[initial_extruder]]
 ;_PRUSA_START_SR BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperature[initial_extruder]]
 ;#performance  ;requires "pure stock" or for 450 psu and,larger heater cartridges
-PRIME_SR ; OR PRIME_V400
-G1 E-1 F1500
-G92 E0 
+
 
 #######################################################################################
 ###                                END GCODE                                        ###
