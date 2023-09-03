@@ -3,12 +3,12 @@
 #######################################################################################
 ;Firmware_Select V4=active   #########FIRMWARE SELECT EXAMPLES. 
 ;Firmware_Select SUPER_RACER=active
-CURA_START_V400
-;CURA_START_SR
+_CURA_START_V400
+;_CURA_START_SR
 
 
 #######################################################################################
 ###                                END GCODE                                        ###
 #######################################################################################
-END   ##############THIS IS A MACRO IN CASE ITS NOT OBVIOUSE ADD THIS. 
+_END   ##############THIS IS A MACRO IN CASE ITS NOT OBVIOUSE ADD THIS. 
 
