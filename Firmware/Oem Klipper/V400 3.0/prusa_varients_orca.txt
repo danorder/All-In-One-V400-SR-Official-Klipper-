@@ -2,6 +2,7 @@
 ###                              START GCODE                                        ###
 #######################################################################################
 G28 ;Home
+stealthchop ;spreadcycle
 G90
 M107 ;start with the fan off
 M104 S0 ; Stops PS/SS from sending temp waits separately
