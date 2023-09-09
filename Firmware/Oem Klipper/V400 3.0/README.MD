@@ -1,6 +1,5 @@
 `State should be stable `
-
-
+`Sr / v400 are unified. the only difference will be pritnter.cfgs and start / end.`
 
 `Import Notes:`
 - `pid_tune` macros do not save_config to allow running both without double reboots.If `pid_bed` is enabled for "calibrate macro," 
