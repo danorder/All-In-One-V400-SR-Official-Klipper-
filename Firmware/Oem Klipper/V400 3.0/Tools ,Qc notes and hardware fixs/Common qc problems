@@ -135,6 +135,12 @@ Do not use wd40 other then for cleaning dirt / old oil.  ptfe dry lube spray is 
 
 Some beds raise more then others. on some units it may be needed to loose the bed clamps this may lead to calibration issues 
 
+pei. 
+pei on the sr must be installed on the glass. The reasons for this are the bed is super thin and will bow a bit with probing if the printer crashes z its going to bow , and, lasly the middle has no support
+The glass doubles as the support, namely its done this way to heat the glass quick vs thick metal then glass ontop. 
+
+
+
 
 
 extruder noise, This is not the bmg at fault. This is loud due to mounting on a hollow sheet metal box, the solution is either print a tpu stap or hang the extruder decoupling it from the frame, 
