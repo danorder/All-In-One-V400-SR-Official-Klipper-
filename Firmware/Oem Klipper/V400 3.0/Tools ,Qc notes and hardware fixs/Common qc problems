@@ -28,23 +28,19 @@ otherwise, a minimal clean image. (add whatever you want only namely for more ad
 ratos is another option. Note fluiddpi-os is now deprectiated and, not under active support. The current install method for mainsail or fluidd is "kiauh'   
 
 
-Using a machinest square or similar check the probe is in perfect alignment to the tip of the nozzle if not it will probe reliably wrong 
-and, trame the effector or probe moount, instead of what were printing with... 
-
-
-
-
-
+Faq:
 
 My probe is broken 
 The option to get around this exists in Klipperscreen, the option dela_calibrate method=manual with a feeler guage will allow "manuaL traming" 
 
+My probe doesn't seem to be working well 
+Using a machinest square or similar check the probe is in perfect alignment to the tip of the nozzle if not it will probe reliably wrong as "kevin O conner puts it" (kliper creator)
+regarding "kossell" style probes.. and, will tramm the effector or probe moount, instead of what were printing with... 
+
+
+
 Seemingly unsolvable leveling problems and, places to check,
-
-
- 
 -if nothing obvious can be found its time to checklist for other areas 
-
 - Belts should be even tension to start off with.
 - check towers with a machine square these should all be 90 , check the front to back for gaps between towers / loose screws 
 - check steppers are not "loose" the towers must come off for this, all 4 screws should be the same torque, the torque drivers will help with this,
@@ -87,22 +83,34 @@ rubbing noises , to state the obviouse check belts
 - check pulleys , if worn these can be found from flsun page or direct email. (larger bore with adapter) a bit none standard. 
 
 
-4. 
+4. slicer problems 
+profiles are to fast for begginers start at 30-60mms get perfect prints, Then typically you can scale the profile up. not doing this you wont be able to see where quality degradation starts
+or other issues you wont be able to even see, other then hear it scraping etc. or, things like extrusion limits for the filament. other cases certain brands just have slower thresh holds high temps
+won't nessasarily help.  e.g not all filament lists what it exactly is persay. quite a few are "designed" for enders being the most common printer"  this often means lower melt temps lower speeds potentially. 
+/ other variables. 
+
+The current knon stable versions of slicer are 
+
+cura 5.40 
+
+orca 1.64
+
+prusa 2.50
+
+superslicer currently unknown, 
+
+ideamaker, not the beta namely its the same with faster profiles for the raise machines, but complains about acc being to high. most cura templates also work. 
 
 
 5. 
 
 
-
-
-
-
-
-
-
-
-
-
 #####################################################################################################################################
 ###                                               ~Flsun Super racer~                                                            ####
 #####################################################################################################################################
+
+
+
+
+
+
