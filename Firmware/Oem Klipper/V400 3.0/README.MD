@@ -1,7 +1,5 @@
-EDIT/UPDATED. THIS WILL BE  possibly become a  / UNIFIED SR/V4 REPO. the old "legacy versions" will only recieve required klipper compatability updates going forward. 
-Note" this is a less then alpha branch. code, may as well be considered "random" or "broken"  the currrent release is in main repo/master. 
+`State should be stable `
 
-Current beta/overhaul. 
 
 
 `Import Notes:`
