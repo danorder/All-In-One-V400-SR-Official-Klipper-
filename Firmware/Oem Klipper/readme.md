@@ -2,7 +2,7 @@
 KNOWN STABLE CURA 5.22 , 4.10 , 4.8XX 
 IDEAMAKER V4.31XXXX 
 PRUSA 2.50. 
-prusa/sl3er rebrands/derivativess neither supported/none supported. stable versions can be hit and miss / frequently change. consider these "advanced" and require page github bug reports read / releese notes.  
+oraca 1.64
 
 ########################################################################################################################################################################################################################
 
