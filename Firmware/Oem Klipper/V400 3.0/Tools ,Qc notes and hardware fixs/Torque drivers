@@ -1,0 +1,35 @@
+Incase people werent aware you can print cheap torque drivers. for general alignment reasons or perfect factory conditions, its ideal to have everything the same to avoid damaged or stripped screws. general reference sheet and, stls below. 
+
+Otherwise these work well on printed parts to avoid deforming issues with over tension. A bit faster as well not worrying about things as much.    
+
+V400 Driver locations
+Bed = 2.0 Nm ,  Towers= 4.0 Nm , Vent grates = 2.0 Nm 
+Effector screws =2.0nm.  Sets screws effector 290c 1.0Nm
+carriages/sliders = 1.5 or 1.0 Nm. (plastic)
+
+General Printed parts:
+1.0--0.5--1.8 Nm (Check for deforming around screws) 
+
+Assembly note:
+break them in with a drill, simply make sure its turning the right way. set the chuck torque low, use low rpm and, spin it for a bit.  dry ptfe spray wont hurt either.
+
+Assorted torque wrenchs (note the materials it matters) 
+https://www.thingiverse.com/thing:2613057
+
+1.8Nm nozzle wrench (dont go above this) 
+https://www.youmagine.com/designs/nozzle-torque-wrench-with-a-knur
+
+Generic bits to find (depending on country etc) 
+https://www.amazon.ca/Neiko-01148A-11-Piece-Magnetic-Compatible/dp/B086RJW49Q/ref=sr_1_5?crid=3SNDYDAOO7P2W&keywords=metric%2Bbits&qid=1694130593&sprefix=metric%2Bbit%2Caps%2C211&sr=8-5&th=1
+
+Bit holders:  (nozzle wrench needs this think of it as a heatbreak)
+https://www.amazon.ca/Drill-Warehouse-Magnetic-Extension-Socket/dp/B01GU4RM0K/ref=sr_1_17?crid=2MQ20KRHGD8JQ&keywords=bit%2Bholder&qid=1694130837&sprefix=bit%2Bhold%2Caps%2C166&sr=8-17&th=1
+
+Torque wrench screw driver handle:
+https://www.thingiverse.com/thing:4856513/files
+
+paid digital driver: (i personally have one of these) not suitable for nozzles. the printed 1.8nm covers the low end. 
+https://www.amazon.ca/Leolee-Screwdriver-Adjustable-Notification-Maintenance/dp/B0BFH62FT1/ref=sr_1_7?crid=AETP69XX5UNI&keywords=torque+driver&qid=1694051813&sprefix=torque+drive%2Caps%2C175&sr=8-7&ufe=app_do%3Aamzn1.fos.b06bdbbe-20fd-4ebc-88cf-fa04f1ca0da8
+
+Torque Reference sheet:
+https://monsterbolts.com/pages/metric-socket-screw-torque-specs
