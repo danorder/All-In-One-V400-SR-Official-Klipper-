@@ -1,6 +1,13 @@
 ###################################################################################################################################
 ###                                                 ~Flsun V400 ~                                                               ###
 ###################################################################################################################################
+1. 
+Delta has a set order of events,  its always these commands in this order , probe_calibrate to get "probe offset"   Next is delta_calibrate to "trame the effector to the bed (aka leveling )
+Finally mesh can be used to "touch up" any topography issues on the bed, this only works if delta_calibrate is accurate otherwise it will cause other problems or just be a bandaid for underlying issues. 
+Note Mesh is rarely wrong but can have confusing results. The first thing is to check the bed for bad spots on the mesh to verify how accurate it is. this can done with a straight edge for flatness or 
+look for things like dimples / dents or rub a dry cloth across the bed to find ruff spots ets.  Also check the magnet for the same this will afffect leveling, 
+
+
 Bed leveling seems to never work: 
 Using a machinest square or similar check the probe is in perfect alignment to the tip of the nozzle if not it will probe reliably wrong 
 and, trame the effector or probe moount, instead of what were printing with... 
@@ -10,15 +17,9 @@ The option to get around this exists in Klipperscreen, the option dela_calibrate
 
 Seemingly unsolvable leveling problems and, places to check,
 
-1. 
-Delta has a set order of events,  its always these commands in this order , probe_calibrate to get "probe offset"   Next is delta_calibrate to "trame the effector to the bed (aka leveling )
-Finally mesh can be used to "touch up" any topography issues on the bed, this only works if delta_calibrate is accurate otherwise it will cause other problems or just be a bandaid for underlying issues. 
-Note Mesh is rarely wrong but can have confusing results. The first thing is to check the bed for bad spots on the mesh to verify how accurate it is. this can done with a straight edge for flatness or 
-look for things like dimples / dents or rub a dry cloth across the bed to find ruff spots ets.  Also check the magnet for the same this will afffect leveling, 
 
-
-2. 
-if nothing obvious can be found its time to checklist for other areas 
+ 
+-if nothing obvious can be found its time to checklist for other areas 
 
 - Belts should be even tension to start off with.
 - check towers with a machine square these should all be 90 , check the front to back for gaps between towers / loose screws 
@@ -28,9 +29,9 @@ if nothing obvious can be found its time to checklist for other areas
 - if carriages are loose remove tension from belts , then remove the 4 screws slide the carriage down loosen the 3 set screws , use 1 or 2 allen keys to turn it, just enough to remove any play, 
 - if carriages are poor qc, they may need to slide off the rail and a small amount of cleaning behind the nut might be required, to take the eccentric nut off, undo the middle wheel first 
 then the nut should pop off, use a red dremel buffing sponge (basically scotch brites)  and remove any burrs / other imperfection a dash of lube or ptfe spray. reassemble. 
+-check probe itelf is square and, not tilted in some way, its possible for the abs to be a bit warped simply take off the pcb and sand it flat. redo probe_calibrate. 
 
-
-3. 
+2. 
 hotennd 
 
 - check all screws are tight when hot / nozzle 
@@ -42,23 +43,15 @@ check fan connector isn't being yanked or fan connector isn't loose / otherwise 
 - make sure the wires have a bit of slack at the connector pcb they shouldn't be stressed. 
 - hotend bent / breaking 
 1. avoid excessive travel speeds just enough to avoid stringing is all that is required or certain situations with really large travels may need a bit more. the higher this is the harder it hits blobs etc. 
-2. printing "slow" and it breaks"  avoid using excessive temperateures most blocks are goot up to 300c, 300c is typically just used to hot tighten the nozzle, otherwise the aluminum will become soft. leading to 
-breaks tearing out / bending / some mix of breakage.
-
+2. printing "slow" and it breaks"  avoid using excessive temperateures most blocks are good up to 300c, 300c is typically just used to hot tighten the nozzle, otherwise the aluminum will become to soft. leading to 
+breaks tearing out / bending / some mix of breakage. Note e3d blocks use a "alloy" allowing a bit more  if printing 300c or above copper is used to avoid these problems other then just thermal transfer reasons. 
 Newer units 
 im not cetain of the solve the pc standoffs used as supports are known to both leak tons of heat into the effector plate creating problems with fans or may be a potential firehazzard at ranges above 280
+taking these off isn't a great idea since leaving them off would mean a tiny thin pipe is unportected (heatbreak) leading to a bend or worse. 
 
 
 
-4. Other axis issues 
-
-
-
-
-
-
-
-
+4. 
 
 
 
