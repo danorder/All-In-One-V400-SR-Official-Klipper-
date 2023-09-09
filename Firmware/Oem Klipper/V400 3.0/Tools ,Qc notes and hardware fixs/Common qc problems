@@ -109,6 +109,35 @@ ideamaker, not the beta namely its the same with faster profiles for the raise m
 ###                                               ~Flsun Super racer~                                                            ####
 #####################################################################################################################################
 
+#1 out of box check the usual, everything on the hotend is tight when hot. if not it will leak 
+
+$2 Do not low ball temps on the sr, it uses cloned e3d, This block "works' but thermistor placement isn't great and, it has a exposed meltzone leading to thermal loss (nozzle stuck out of the block) 
+the general temp is 220 9/10 on pla their is always exceptions of course. keep in mind its running 2200-3000 acceleration in marlin and, above in klipper. relative to other printers this means its generally
+hitting request speed more often then not. As a result it needs more temp dumping out more filament plus the bowden is somewhat long.  Failure to keep this in mind typically leads to damaged extruder. end of the day
+the filament can only backire one place and, that back into e.  
+
+3. couplers are moving 
+unlike some types of couplers the stock couplers do not require clips they will not sovle this problem either. 
+if the tube is not seated all the way up it will have a gap and shift with every retract otherwise leak,  leave the coupler  1/8 loose then push the tube all the way up, tighen the coupler. if on the hotend, preheat this
+first.  Note the ptfe tube must be cut flush to seal.  the side of the ptfe going into the extruder optially you can also bevel the tube / countersink so the filament inserts slightly easier. 
+
+4. Do not waste your money on bimetal breaks or risk your house to a fire, simply put the mosquito design protects these since they bend on a dime 1mm thin tubes aren't strong never mind highspeed deltas. 
+
+alignment. same as the v400 machinest square, 
+
+rails. if binding, you must loosen rails screws a bit. start on 1 half of the rail. start at the middle screw work your way up tightening this will "flatten the rail solving the binding / bumps" hence all the holes 
+some units may need to tap in a feww more screws. once one half is done do the other half. 
+
+if rails are rocking / loose this means the bearins in the carriage needs to be replaced or easier the whole rail.  
+
+Do not take them off like some youtube videos.... typically if they fall easy or not all it means bad tolerances or its simply not flat but will be torqued down.  
+Do not use wd40 other then for cleaning dirt / old oil.  ptfe dry lube spray is the usual recommend or the lube it comes with. 
+
+Some beds raise more then others. on some units it may be needed to loose the bed clamps this may lead to calibration issues 
+
+
+
+extruder noise, This is not the bmg at fault. This is loud due to mounting on a hollow sheet metal box, the solution is either print a tpu stap or hang the extruder decoupling it from the frame, 
 
 
 
