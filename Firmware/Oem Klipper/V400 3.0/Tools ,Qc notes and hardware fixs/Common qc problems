@@ -26,6 +26,7 @@ Seemingly unsolvable leveling problems and, places to check,
 - check steppers are not "loose" the towers must come off for this, all 4 screws should be the same torque, the torque drivers will help with this,
 - check the carriages / sliders are "level / square with. https://www.thingiverse.com/thing:5973131
 - check the carriages for "rocking" / bumps / debree. if they rock this means the eccentric nut behind the carriage block is loose, this should checked with belts loose. 
+- use 2.0 nm torquedriver on all bed screws to ensure this is even, same principle as a car wheel. 
 - if carriages are loose remove tension from belts , then remove the 4 screws slide the carriage down loosen the 3 set screws , use 1 or 2 allen keys to turn it, just enough to remove any play, 
 - if carriages are poor qc, they may need to slide off the rail and a small amount of cleaning behind the nut might be required, to take the eccentric nut off, undo the middle wheel first 
 then the nut should pop off, use a red dremel buffing sponge (basically scotch brites)  and remove any burrs / other imperfection a dash of lube or ptfe spray. reassemble. 
