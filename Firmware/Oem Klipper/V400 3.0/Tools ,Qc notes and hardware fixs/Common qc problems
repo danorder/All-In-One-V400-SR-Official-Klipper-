@@ -90,10 +90,10 @@ won't nessasarily help.  e.g not all filament lists what it exactly is persay. q
 / other variables. 
 
 The current knon stable versions of slicer are 
+use custom machine deff for full features.... like nozzle size / intended cura settings for features to work. (note you can have both) 
 
-cura 5.40 
-
-orca 1.64
+cura 5.40 - u
+orca 1.64 
 
 prusa 2.50
 
