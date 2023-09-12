@@ -1,4 +1,4 @@
-Sr Firmware is identical to the v400 other then "build size / extruder" 
+Sr Firmware is identical to the v400 other then "build size / extruder" NOTE: GET BACKEND.CFG FROM THE PEVIOUS DIRECTORY THEY NEED THIS.  
 
 
 
