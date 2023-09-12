@@ -1,0 +1,49 @@
+############ Prime blob instructions ###########
+Not much adjustment should be needed however, the user has the ability to adjust size/extrude length and, retract to avoid stringing. 
+Note if blobs don't stick this typically means first layer hotend temp is not hot enough /bed. Generally the print wont stick as well or lift later. 
+
+To change prime blob extrude length/size simply use the "prime blob extrude length macro" click the arrow and change the lenght. the default is 80mm 
+To adjust the retract length before it starts print. increase or decrease firmware retract length. 
+If coming from a older config simply copy paste firmware retract in the same location as the current printer.cfg file. 
+Also replace otherfeatures file with the latest to avoid a full reinstall / calibration cycle.  
+
+Tip: Notepad++ has a compare Tool plugin to aid in slight config changes. refer to google on usage / install. 
+
+
+
+##################### START GCODE #########################
+
+
+BED_MESH_PROFILE LOAD="default"
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+G28 ;Home
+Spreadcycle ;Stealthchop this can be used or additional silence if required. however may lead dimensional problem / scraping. refer to tmc docs for a in depth reason. 
+G1 Z15.0 F9000 ;move the platform down 15mm
+G92 E0 ;zero the extruded length
+PRIME
+G92 E0
+
+###################### END GCODE ###########################
+M104 S0
+M140 S0 ;heated bed heater off
+G91 ;relative positioning
+G1 E-0.5 F300 
+G1 Z+0.5 E-5 X-20 Y-20 F9000 
+G28 ;Home
+M84 ;steppers off
+G90 ;absolute positioning
+M107 ;fan off
+led_off
+Stealthchop
+
+#################### do not copy this line these are just dividers ####################
+slicer settings 
+skirt settings 
+30-60mms skirt print speed 
+skirt line width 0.6
+skirt line count 2 
+skirt distance 10mm 
+skirt/brim minimum length 550mm 
