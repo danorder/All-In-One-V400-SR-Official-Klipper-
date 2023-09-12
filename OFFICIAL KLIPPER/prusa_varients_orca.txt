@@ -1,0 +1,23 @@
+#######################################################################################
+###                              START GCODE                                        ###
+#######################################################################################
+G28 ;Home
+stealthchop ;spreadcycle
+G90
+M107 ;start with the fan off
+M104 S0 ; Stops PS/SS from sending temp waits separately
+M140 S0
+_PRUSA_START_V400 BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperature[initial_extruder]]
+;_PRUSA_START_SR BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperature[initial_extruder]]
+;#performance  ;requires "pure stock" or for 450 psu and,larger heater cartridges
+
+
+#######################################################################################
+###                                END GCODE                                        ###
+#######################################################################################
+_END ######## IN CASE IT ISN'T OBVIOUSE END IS A MACRO 
+
+
+
+
+Note: make sure to choose the correct `_prusa_start` for whichever printer. 
