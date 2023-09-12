@@ -1,7 +1,13 @@
 [server]
 host: 0.0.0.0
 port: 7125
-klippy_uds_address: /home/pi/printer_1_data/comms/klippy.sock
+#klippy_uds_address: /home/pi/printer_1_data/comms/klippy.sock #(stock pads 1.2-1.3(
+klippy_uds_address: /home/pi/printer_data/comms/klippy.sock #(pi) single install method 
+#klippy_uds_address: /home/biqu/printer_data/comms/klippy.sock #(bttpad7/bttp) 
+
+[file_manager]
+# post processing for object cancel. Not recommended for low resource SBCs such as a Pi Zero. Default False
+enable_object_processing: True
 
 [authorization]
 trusted_clients:
@@ -56,4 +62,19 @@ type: git_repo
 path: ~/crowsnest
 origin: https://github.com/mainsail-crew/crowsnest.git
 install_script: tools/install.sh
+
+[update_manager timelapse]
+type: git_repo
+primary_branch: main
+path: ~/moonraker-timelapse
+origin: https://github.com/mainsail-crew/moonraker-timelapse.git
+managed_services: klipper moonraker
+
+# Sonar update_manager entry
+[update_manager sonar]
+type: git_repo
+path: ~/sonar
+origin: https://github.com/mainsail-crew/sonar.git
+primary_branch: main
+managed_services: sonar
 
