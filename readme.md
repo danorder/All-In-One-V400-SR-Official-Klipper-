@@ -4,7 +4,9 @@
 
 Configuration Variants:
 1. OFFICIAL Klipper: Raspberry Pi , BTTPI PAD7 or general Linux device. Otherwse reinstalled Speeder-pad with OFFICIAL Projects. 
-2. Flsun Speederspad Klipper: Includes many changes to core Klipper files. - conflicting docs i wont make any Further updates due to tramming disabled / offical klipper project "ban" / docs conflicts among false posts about Official project issues.
+2. Flsun Speederspad Klipper: Includes many changes to core Klipper files. - conflicting docs i wont make any Further updates due to tramming disabled / official klipper project "ban" / docs conflicts among other false posts about Official project issues.
+This is simply to much hastle for users , devs and, the official klipper team to deal with daily.  
+
 
 Note:
 On some printers, it may be necessary to temporarily increase 'minimum_z_position' to -5 for the initial setup to run 'probe_calibrate' due to varying quality control. Once completed, it should be set to the default value or around 0.6-1mm. The first 'save_config' will add a section to 'printer.cfg' with calibrated overrides such as 'zoffset', 'delta_calibrate', etc.
