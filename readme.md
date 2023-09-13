@@ -1,10 +1,10 @@
 
-## Flsun V400 Overhaul in Accordance with Klipper Standards / Delta ##
+## Flsun V400/SR Overhaul in Accordance with Klipper Standards / Delta ##
 
 
 Configuration Variants:
-1. OEM Klipper Vanilla: Raspberry Pi with general Linux or reinstalled Speeder-pad.
-2. Flsun Speederspad Klipper: Includes many changes to core Klipper files.
+1. OFFICIAL Klipper: Raspberry Pi , BTTPI PAD7 or general Linux device. Otherwse reinstalled Speeder-pad with OFFICIAL Projects. 
+2. Flsun Speederspad Klipper: Includes many changes to core Klipper files. - conflicting docs i wont make any Further updates due to tramming disabled / offical klipper project "ban" / docs conflicts among false posts about Official project issues.
 
 Note:
 On some printers, it may be necessary to temporarily increase 'minimum_z_position' to -5 for the initial setup to run 'probe_calibrate' due to varying quality control. Once completed, it should be set to the default value or around 0.6-1mm. The first 'save_config' will add a section to 'printer.cfg' with calibrated overrides such as 'zoffset', 'delta_calibrate', etc.
