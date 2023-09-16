@@ -7,7 +7,7 @@ If using extruder buttons / other hardware. v400 / sr macros use the printer.cfg
 
 
 SETUP: 
-Firstly rename xx sr board to printer.cfg. 2nd printer.cfg , backend , and, optionally mainsail ui backup are required. simply drag and drop these on to mainsail. 
+Firstly rename xx sr board to printer.cfg. 2nd printer.cfg , backend , and, mainsail ui backup are required. simply drag and drop these on to mainsail. 
 Due to varying hardware printer.cfg virtual sdcard and, variables location will most likely need to be adjusted. The old tutorial island aspect of the sr is now "depreciated" since forums have enough users now. 
 
 Note calibration behavior / methods have not changed.  and, remainss  1. put on the probe 2. run probe_calibrate though terminal or klipperscreen (zcalibrate button) 3. preheat the bed 4. run "calibrate" wait for the
