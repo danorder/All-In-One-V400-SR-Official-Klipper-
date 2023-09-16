@@ -12,15 +12,26 @@ QIDI
 
 Exception. 
 
-if the user can install / revert project to their supported state these would again follow docs / work with the website aka manual. 
+
+If the user can install / revert project to their supported state these would again follow docs / work with the website aka manual. 
 However the con is installation remains much harder then it should be / time consuming,  you will also be missing critical features depending on boot loader such as 
 bootable ssd/hdd
+
 clonable able ssd /hdd 
+
 standard mostly setup o.s images / project support
+
 on some devices you have no fall back to data loss if bootable media is not removable. e.g devices blows up no sdcard etc to remove / get data off with pc. 
+
+
 only option is repair it. 
+
+
 well known issues and solutions 
+
+
 reliable and, trustworty updates  (updates should only be coming from ubuntu, or debian main servers for the o.s) Klipper and other installed projects only need to update with the updater in mainsail/fluidd
+
 
 FLASH TOOls  RASPI-FLASHER this also has the option to download mainsailos for pi devices 
 belena etcher , has sdcard cloning funcion. useful to update a bunch of printers or simply make backups. very useful for print farms / identical machines. 
