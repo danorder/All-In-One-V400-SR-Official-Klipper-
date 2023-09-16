@@ -12,5 +12,10 @@ Beds
 on the gen 1 and 2 sr (metal clamps) ensure these are not excessivly tight this is known to affect delta_calibrate/mesh. if to tight the bed may lift fighting the camps at certain temperatures (you need to check this
 every priners differnt) e.g mine raises maybe 1-2mm at 80c, 
 
+Stock sr hotends 
+Expect to print higher temps then the rolls. namely if coming from slower printers your printing all around faster this ends up needing more. failure to do so commonly damages the extruder. This is a overtime affect
+typically from excessive force trying to extrude. a bmg or similar gear box with full size stepper has more then enough torque to always extrude. The problem it will also backfire on itself possibly damaging the filament path or reducing the filament to a spring coming out the lever. Further part of the temp difference relates to the clone block thermistor placement, its not reading the nozzle like the real design, and, also the nozzle is stuck to far outside  the meltzone. 
+
+
 
 
