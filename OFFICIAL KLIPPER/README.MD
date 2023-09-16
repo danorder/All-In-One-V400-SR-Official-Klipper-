@@ -1,4 +1,4 @@
-`State should be stable `
+`State updating gihub use releases a update will be on the fb page `
 `Sr / v400 are unified. the only difference will be pritnter.cfgs and start / end.`
 
 `Import Notes:`
