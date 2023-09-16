@@ -10,7 +10,7 @@ This is simply to much hastle for users , devs and, the official klipper team to
 
 Note:
 On some printers, it may be necessary to temporarily increase 'minimum_z_position' to -10 for the initial setup to run 'probe_calibrate' due to varying quality control. Once "calibrate macro completes the nozzle will be babystepped 0.2 high to avoid scrapes on pei if user manual probe_calibrate went a bit wrong simply babystep down frist print. if all went well the values is typically some range of 0.05-0.0-0.1. The first 'save_config' will add a section to 'printer.cfg' with calibrated overrides such as 'zoffset', 'delta_calibrate', etc. Furhter note. tramming (delta_calibrate)  does have limits it expects the printer to be well assembled / square to work. only then will bed mesh be "accurate" mesh is only a "supplement" to deal with slight topograpy issues with the bed. 
-a delta should never rely on this. Ideally on a fully settyp / fine tuned machine fade can be enabled and set to turn mesh off after the first few layers. this avoids the machine needing to constantly adjust z on every move. (this causes odd issues / artiiacts / dimension issues otherwise)
+a delta should never rely on this. Ideally on a fully set up/fine tuned machine fade can be enabled and set to turn mesh off after the first few layers. This avoids the machine needing to constantly adjust z on every move. (this causes odd issues / artiiacts / dimension issues otherwise) If you feel you need more then 11 points, on mesh its time to check the machine for mechanical problems. 
 
 What's New?
 1. V400 trams in accordance with delta docs. if using "vanila" klipper of the website is installed." Otherwise not much from the original sr configs. 
