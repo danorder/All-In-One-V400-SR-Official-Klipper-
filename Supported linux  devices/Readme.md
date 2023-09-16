@@ -10,7 +10,9 @@ SONIC PAD -
 SPEEDER PAD 
 QIDI 
 
-Exception. if the user can install / revert project to their supported state these would again follow docs / work with the website aka manual. 
+Exception. 
+
+if the user can install / revert project to their supported state these would again follow docs / work with the website aka manual. 
 However the con is installation remains much harder then it should be / time consuming,  you will also be missing critical features depending on boot loader such as 
 bootable ssd/hdd
 clonable able ssd /hdd 
