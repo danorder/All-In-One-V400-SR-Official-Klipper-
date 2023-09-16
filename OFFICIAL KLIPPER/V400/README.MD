@@ -2,6 +2,8 @@
 `Sr / v400 are unified. the only difference will be pritnter.cfgs and start / end.`
 
 REMINDER: TO RENAME WHATEVER BOARD TO printer.cfg 
+Configs by default assume official klipper device locations and, single install. (Not all projects keep in sync with multiinstall this requires a bit of manual setup.) 
+make sure to check, Moonraker.conf has the correct location for your device. typically this printer_data btt partner devices use "biqu" instead of PI for user. so biqu/home. 
 
 
 `Import Notes:`
