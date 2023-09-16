@@ -19,16 +19,21 @@ What's New?
 
 3. Spread cycle and stealth chops: According to TMC docs, spread cycle is the most accurate but also louder. The mode can be set in start G-code or manually selected.
 4. Safe homing.
-5. Extruder gear ratio.
 6. TMC spreadsheet tuning.
 7. Auto-saving baby step based on Mental's XYZ offset macro.
-8. Heavy-duty input shaper tuning.
 9. Raspberry Pi Pico ADXL support.
-10. Ideamaker profiles.
 11. Properly functioning bed mesh.
 12. Revised macros to remove redundancy.
 13. Effector LED turns on when running G28.
-14. Automated calibration (endstop, delta_calibrate, bed_mesh). Preheat the bed before using this. The probe must be on.
+14. RGB EFFECTOR PCB support
+15. Filament drying
+16. Profile overrides
+17. Multiple effector / extruder support.
+18. Tool change
+19. Thermal runaway....is renabled.
+20. Z velocity cannot crash into the bed at 600-400mms........
+21. built in flow / rotation distance calculators
+23. Automated calibration (endstop, delta_calibrate, bed_mesh). Preheat the bed before using this. The probe must be on.
 
 
 
