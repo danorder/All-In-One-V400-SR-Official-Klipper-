@@ -1,7 +1,7 @@
 Base files Pick the correct printer board and, remember to rename to printer.cfg 
 
 
-`State in Testing ` 
+`State in Testing ` Note not all docs may be up to date on "terms" this is in w.i.p state. 
 
 
 `Sr / v400 are unified. the only difference will be pritnter.cfgs and start / end.`
