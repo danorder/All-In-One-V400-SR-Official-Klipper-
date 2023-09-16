@@ -1,14 +1,13 @@
 #######################################################################################
 ###                              START GCODE                                        ###
 #######################################################################################
-;Firmware_Select V4=active   #########FIRMWARE SELECT EXAMPLES. 
+;Firmware_Select V4=active   #########  FIRMWARE SELECT EXAMPLES. 
 ;Firmware_Select SUPER_RACER=active
-_CURA_START_V400
+_CURA_START_V400   ############## Make sure to enable the right one depending on printer. 
 ;_CURA_START_SR
 
 
 #######################################################################################
 ###                                END GCODE                                        ###
 #######################################################################################
-_END   ##############THIS IS A MACRO IN CASE ITS NOT OBVIOUSE ADD THIS. 
-
+_END   ############## THIS IS A MACRO IN CASE ITS NOT OBVIOUSE ADD THIS. SAME FOR SR/V400
