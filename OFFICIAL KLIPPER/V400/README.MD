@@ -1,5 +1,8 @@
-`State should be stable `
+`State should be stable ` 
 `Sr / v400 are unified. the only difference will be pritnter.cfgs and start / end.`
+
+REMINDER: TO RENAME WHATEVER BOARD TO printer.cfg 
+
 
 `Import Notes:`
 - `pid_tune` macros do not save_config to allow running both without double reboots.If `pid_bed` is enabled for "calibrate macro," 
