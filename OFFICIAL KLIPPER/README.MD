@@ -1,4 +1,4 @@
-`State updating gihub use releases a update will be on the fb page `
+Base files Pick the correct printer board and, remember to rename to printer.cfg 
 
 
 
