@@ -3,7 +3,8 @@ Sr Firmware is identical to the v400 other then "build size / extruder" NOTE: GE
 
 
 
-If using extruder buttons / other hardware. v400 / sr macros use the printer.cfg values' everything else isn't Linked" 
+If using extruderS macros use the printer.cfg MACRO THIS = default printer.cfg config values. everything else overrides printer.cfg unless set back to default with printer.cfg macro."
+
 
 
 SETUP: 
