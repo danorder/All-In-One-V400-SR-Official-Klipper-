@@ -24,7 +24,10 @@ To avoid cluttering macros, restore "mainsail" under settings with the provided 
 - Overhauled macros with pull-down menus available in Mainsail/Fluidd. Most macros use 1=on or 0=off.
 - Filament flow/rotation distance calculators.
 - `5 extruder/effector selection macros` for quick swaps or common mod support. The default will be v400 orsr effector on a fresh config Note: if using other effectors `printer.cfg macoro = config values`
-- `Rotation distance` can be adjusted or saved with the `extrude_140` macro. A negative value will also reverse the motor direction.
+
+- `Rotation distance` can be adjusted or saved with the `extrude_140` macro. A negative value will also reverse the motor direction. Note: this a global override and, will be the current value on boot.
+unless changed with a `extruder/effector macro ` 
+
 - Most macros display errors/hints in the print stats section or terminal.
 - `Built-in slicer profile overrides`. By default, these are inactive until values are set. Profiles like PLA 100, PETG 94, etc can be used by saving required changes in the machine with `save_profile`
 
