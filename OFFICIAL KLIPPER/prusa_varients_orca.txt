@@ -15,9 +15,12 @@ _PRUSA_START_V400 BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperat
 #######################################################################################
 ###                                END GCODE                                        ###
 #######################################################################################
+TIMELAPSE_TAKE_FRAME ;turn off if you don't have timelapse
 _END ######## IN CASE IT ISN'T OBVIOUSE END IS A MACRO 
 
 
+before Layer change 
+TIMELAPSE_TAKE_FRAME
 
 
 Note: make sure to choose the correct `_prusa_start` for whichever printer. 
