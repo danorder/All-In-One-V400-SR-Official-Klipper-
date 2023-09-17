@@ -11,3 +11,10 @@ _CURA_START_V400   ############## Make sure to enable the right one depending on
 ###                                END GCODE                                        ###
 #######################################################################################
 _END   ############## THIS IS A MACRO IN CASE ITS NOT OBVIOUSE ADD THIS. SAME FOR SR/V400
+TIMELAPSE_TAKE_FRAME
+
+
+
+Use cura layerchange script for time lapse
+
+TIMELAPSE_TAKE_FRAME
