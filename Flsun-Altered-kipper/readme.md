@@ -1,3 +1,8 @@
+~STATE LEGACY~
+
+
+
+
 updated start gcode prime blob pattern.  tuesday march 14 2023 prime arc depreciated /default cura start. 
 
 Designed to work with "pure stock speeder pads' (Flsun firmware)
