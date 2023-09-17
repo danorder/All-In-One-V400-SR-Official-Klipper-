@@ -23,11 +23,13 @@ To avoid cluttering macros, restore "mainsail" under settings with the provided 
 - SR firmware emulator/speed macros for non-dynamic acceleration or adjusting print speed during filament G-code. Use "active" in the pull-down menu to resume values after a reboot. These can also be used to speed up or slow down prints.
 - Overhauled macros with pull-down menus available in Mainsail/Fluidd. Most macros use 1=on or 0=off.
 - Filament flow/rotation distance calculators.
-- 5 extruder/effector selection macros for quick swaps or common mod support. The default will be v400 effector on a fresh config.
+- `5 extruder/effector selection macros` for quick swaps or common mod support. The default will be v400 orsr effector on a fresh config Note: if using other effectors `printer.cfg macoro = config values`
 - `Rotation distance` can be adjusted or saved with the `extrude_140` macro. A negative value will also reverse the motor direction.
 - Most macros display errors/hints in the print stats section or terminal.
 - `Built-in slicer profile overrides`. By default, these are inactive until values are set. Profiles like PLA 100, PETG 94, etc can be used by saving required changes in the machine with `save_profile`
-To make a profile. first put in the flow value this also doubles as selecting. e.g pla 100 flow , all retract values and, p.a.  Speed override is selecteded differently. use 1 in the "flow value" then whatever value more or less. e.g 120%. this will make the printer run 20% percent faster or 20% more of the profile. 
+
+
+`To make a profile.` first put in the flow value this also doubles as selecting. e.g pla 100 flow , all retract values and, p.a.  Speed override is selecteded differently. use 1 in the "flow value" then whatever value more or less. e.g 120%. this will make the printer run 20% percent faster or 20% more of the profile. 
 - `Firmware retraction` values per profile can be saved and used when a specific filament is chosen using `select_profile` macro, such as PLA.
 - To use these either click `select_profile` macro and, select one. the value can be anything e.g `1` nothinng specific is assigned. This will load the profile and, also the selected profile will remain active until changed. 
 E.g If pla is selected and, the printer is rebooted this will remain said retract / flow values on boot. These can either be used alone or callee in slicers with perfilament/gcode profiles such as ideamaker/prusa/supersslicer.
