@@ -15,8 +15,6 @@ _PRUSA_START_V400 BED=[first_layer_bed_temperature] HOTEND=[first_layer_temperat
 #######################################################################################
 ###                                END GCODE                                        ###
 #######################################################################################
-TIMELAPSE_TAKE_FRAME
-TIMELAPSE_RENDER
 _END ######## IN CASE IT ISN'T OBVIOUSE END IS A MACRO 
 
 
