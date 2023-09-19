@@ -1,5 +1,5 @@
 
-## Flsun V400/SR Overhaul in Accordance with Klipper Standards / Delta ## STATE UPDATING USE RELEASES. 
+## Flsun V400/SR Overhaul in Accordance with Klipper Standards / Delta ## STATE UPDATING USE RELEASE links to the left ===============================================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 Configuration Variants:
