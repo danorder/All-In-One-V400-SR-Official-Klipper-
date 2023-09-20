@@ -146,7 +146,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nselect_profile PLA=1\nSET_INPUT_SHAPER SHAPER_TYPE=2hump_ei\n"
+        "; filament start gcode\n;select_profile PLA=1\n;SET_INPUT_SHAPER SHAPER_TYPE=2hump_ei\n"
     ],
     "filament_toolchange_delay": [
         "0"
